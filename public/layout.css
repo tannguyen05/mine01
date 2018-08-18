@@ -1,0 +1,103 @@
+#container{
+    width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+#loginForm{
+    width: 300px;
+    margin: auto;
+    background-color: transparent;
+    text-align: center;
+}
+#loginForm input[type=text]{
+    background-color: transparent;
+    height:20px;
+    border: 1px solid grey;
+}
+#chatBox{
+    margin: 10px auto;
+    background-color: transparent;
+    
+}
+#onlineBox{
+    width: 200px;
+    height: 300px;
+    float: left;
+    background-color: floralwhite;
+    text-align: center;
+}
+#messageBox{
+    width: 580px;
+    margin-left: 10px;
+    min-height: 300px;
+    float: left;
+    background-color: white;
+    border: 4px double wheat;
+    overflow-y: scroll;
+}
+
+#inputMess{
+    clear: left;
+    display: inline-block;
+    margin-top: 5px;
+    position: relative;
+    left:480px;
+}
+#inputMess input[type=text]{
+    background-color: transparent;
+    height: 20px;
+    width: 260px;
+    border: 1px solid gray;
+}
+#err{
+    color: red;
+}
+#welcome{
+    text-align: right;
+}
+#currentUser{
+    color: coral;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+#logout {
+    background-color: darkcyan;
+    margin: 5px;
+}
+#usersOnline{
+    height: 230px;
+    overflow-y: scroll;
+}
+#usersOnline::-webkit-scrollbar {
+    width: 3px;
+    background-color: #F5F5F5;
+} 
+#usersOnline::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+}
+#usersOnline::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    background-color: #F5F5F5;
+}
+#messageBox::-webkit-scrollbar {
+    width: 3px;
+    background-color: #F5F5F5;
+} 
+#messageBox::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+}
+#messageBox::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    background-color: #F5F5F5;
+}
+
+.content{
+    border: 1px solid transparent;
+    padding: 5px;
+    text-align: center;
+    background-color: lightskyblue;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: ghostwhite;
+}

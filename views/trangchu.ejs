@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>chat box</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <link rel="stylesheet" href="layout.css" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="loginForm">
+                <h3>What is your name?</h3>
+                <input type="text" name="uname" id="txtUname" placeholder="Username" required>
+                <input type="button" value="register" id="btnRegister">
+                <p id="err"></p>
+            </div>
+            <div id="chatBox">
+                <div id="welcome">Hello, <label id="currentUser"></label><label><button id="logout">Logout</button></label></div>
+                <div id="onlineBox">
+                    <h4>online</h4>
+                    <hr>
+                    <div id="usersOnline">
+
+                    </div>
+                </div>
+                <div id="messageBox">
+                    <div id="message">
+
+                    </div>
+                    <div id="focus"></div>
+                </div>
+                <div id="inputMess">
+                    <input type="text" placeholder="Type a message..." name="message" id="txtMess">
+                    <input type="button" id="btnSend"value="Send">
+                </div>
+            </div>
+        </div>
+        <script src="handle.js"></script>
+        </script>
+    </body>
+</html>
